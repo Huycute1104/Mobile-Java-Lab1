@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10">
+    <TextView android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="2"
+        android:background="#FFEB3B"
+        android:text="Android"
+        android:textColor="#DCD32525"
+        android:textSize="30sp"
+
+        />
+
+    <TextView android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="3"
+        android:background="#3F51B5"
+        android:text="PHP"
+        android:textColor="#DCD32525"
+        android:textSize="30sp"
+
+        />
+    <TextView android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="4"
+        android:background="#009688"
+        android:text="SQL"
+        android:textColor="#FFEB3B"
+        android:textSize="30sp"
+
+        />
+    <TextView android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:background="#FF9800"
+        android:text="PYTHON"
+        android:textColor="#3F51B5"
+        android:textSize="30sp"
+
+        />
+
+
+</LinearLayout>
